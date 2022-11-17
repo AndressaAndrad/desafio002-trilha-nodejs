@@ -1,3 +1,5 @@
+# Desafio002-trilha-nodejs
+
 # Sobre o desafio
 
 Nesse desafio você irá trabalhar mais a fundo com middlewares no Express. Dessa forma você será capaz de fixar mais ainda os conhecimentos obtidos até agora. 
@@ -35,8 +37,6 @@ Com todas as validações passando, o *todo* encontrado deve ser passado para o 
 Esse middleware possui um funcionamento semelhante ao middleware `checksExistsUserAccount` mas a busca pelo usuário deve ser feita através do **id** de um usuário passado por parâmetro na rota. Caso o usuário tenha sido encontrado, o mesmo deve ser repassado para dentro do `request.user` e a função next deve ser chamada.
 
 
-
-# desafio002-trilha-nodejs
 Trabalhando com middlewares
 Trilha NodeJS
 
