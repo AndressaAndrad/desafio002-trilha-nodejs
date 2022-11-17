@@ -37,8 +37,5 @@ Com todas as validações passando, o *todo* encontrado deve ser passado para o 
 Esse middleware possui um funcionamento semelhante ao middleware `checksExistsUserAccount` mas a busca pelo usuário deve ser feita através do **id** de um usuário passado por parâmetro na rota. Caso o usuário tenha sido encontrado, o mesmo deve ser repassado para dentro do `request.user` e a função next deve ser chamada.
 
 
-Trabalhando com middlewares
-Trilha NodeJS
-
 
 
